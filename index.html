@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container1">
+        <div id="box1">
+          <div>
+            <i class="fa-brands fa-spotify fa-xl" style="color: #ffffff"></i>
+            Spotify
+          </div>
+          <div>
+            <i class="fa-solid fa-house fa-xl" style="color: #ffffff"></i>Home
+          </div>
+          <div>
+            <i
+              class="fa-solid fa-magnifying-glass fa-xl"
+              style="color: #ffffff"
+            ></i
+            >Search
+          </div>
+        </div>
+
+        <div id="box2">
+          <div class="yourLibrary">
+            <span>
+              <i class="fa-regular fa-bookmark" style="color: #ffffff"></i> Your
+              Library
+            </span>
+            <span>+</span>
+          </div>
+          <div id="collection">
+            <div id="firstPlaylist" class="library">
+              <h3>Create your first playlist</h3>
+              <p>it's easy,we'll help you</p>
+              <button>Create playlist</button>
+            </div>
+            <div id="podcasts" class="library">
+              <h3>Let's find some podcasts to folllow</h3>
+              <p>We'll keep you updated on new episodes</p>
+              <button>Browse podcasts</button>
+            </div>
+          </div>
+        <div id="box3">
+            <div>Cookies</div>
+            <button>
+              <i class="fa-solid fa-globe" style="color: #ffffff"></i>English
+            </button>
+        </div>
+        </div>
+      </div>
+
+      <div class="container2">
+        <div class="navBar">
+          <div id="left">
+            <i class="fa-solid fa-chevron-left" style="color: #969696"></i>
+            <i class="fa-solid fa-chevron-right" style="color: #969696"></i>
+          </div>
+          <div id="right">
+            <div>Sign up</div>
+            <div>Log in</div>
+          </div>
+        </div>
+        <div class="mainBox">
+          <h2><a href="#">Spotify Playlist</a></h2>
+          <div id="playBox">
+            <div class="song" data-src="song1.mp3">
+              <img
+                src="https://c.saavncdn.com/093/Saar-Hindi-2021-20211025013506-500x500.jpg"
+                alt=""
+              />
+              <span>Tu aisa kaise hai</span>
+              <button class="play-button" data-src="./song/song1.mp3"> <i class="fa-solid fa-play fa-2xl" style="color: #000000;"></i> </button>
+
+            </div>
+            <div class="song" >
+              <img
+                src="https://i1.sndcdn.com/artworks-000046293887-68p8t0-t500x500.jpg"
+                alt=""
+              />
+              <span>Ranjhana</span>
+              <button class="play-button" data-src="./song/song2.mp3"> <i class="fa-solid fa-play fa-2xl" style="color: #000000;"></i> </button>
+            </div>
+            <div class="song">
+              <img
+                src="https://source.boomplaymusic.com/group10/M00/12/10/095303ceb7254f769580c39df2b2059b_464_464.jpg"
+                alt=""
+              />
+              <span>Tu hai kahaan</span>
+              <button class="play-button" data-src="./song/song3.mp3"> <i class="fa-solid fa-play fa-2xl" style="color: #000000;"></i> </button>
+            </div>
+            <div class="song">
+              <img
+                src="https://i.scdn.co/image/ab67616d0000b27358ecb3e5ec3bbef70ee09e43"
+              />
+              <span>Choo lo</span>
+              <button class="play-button" data-src="./song/song4.mp3"> <i class="fa-solid fa-play fa-2xl" style="color: #000000;"></i> </button>
+            </div>
+            <div class="song">
+              <img
+                src="https://i1.sndcdn.com/artworks-000430625235-70n58p-t500x500.jpg"
+                alt=""
+              />
+              <span>Adat</span>
+              <button class="play-button" data-src="./song/song5.mp3"> <i class="fa-solid fa-play fa-2xl" style="color: #000000;"></i> </button>
+            </div>
+            <div class="song">
+              <img
+                src="https://c.saavncdn.com/362/Teri-Jhuki-Nazar-Hindi-2013-20200630075726-500x500.jpg"
+                alt=""
+              />
+              <span>Teri zhuki nazar</span>
+              <button class="play-button" data-src="./song/song6.mp3"> <i class="fa-solid fa-play fa-2xl" style="color: #000000;"></i> </button>
+            </div>
+            <div class="song">
+              <img
+                src="https://c.saavncdn.com/243/Once-Upon-A-Time-In-Mumbaai-Dobara-2013-500x500.jpg"
+                alt=""
+              />
+              <span>Ye tune kya kiya</span>
+              <button class="play-button" data-src="./song/song7.mp3"> <i class="fa-solid fa-play fa-2xl" style="color: #000000;"></i> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar">
+        <div id="icons">
+            <i class="fa-solid fa-2xl fa-backward-step"></i>
+            <i class="fa-regular fa-2xl fa-circle-play"></i>
+            <i class="fa-solid fa-2xl fa-forward-step"></i>
+          </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
